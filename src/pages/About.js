@@ -2,6 +2,7 @@ import { Container, Divider, Grid, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import React from 'react';
 import data from '../projects/data';
+import profile from '../assets/profile.jpg';
 
 const About = () => {
   const styles = {
@@ -134,7 +135,7 @@ const About = () => {
           <img
             className="img slideanim"
             style={styles.img}
-            src="../assets/profile.jpg"
+            src={profile}
             width="100%"
             alt="profile"
           />
