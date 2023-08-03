@@ -110,6 +110,10 @@ input:-webkit-autofill:focus {
   animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) 1s both;
 }
 
+.keyName {
+  font-weight: 700;
+}
+
 @-webkit-keyframes tracking-in-expand {
   0% {
     letter-spacing: -0.5em;

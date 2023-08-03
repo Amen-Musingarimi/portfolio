@@ -3,6 +3,7 @@ import { Box } from '@mui/system';
 import React from 'react';
 import data from '../projects/data';
 import profile from '../assets/profile.jpg';
+import './../index.css';
 
 const About = () => {
   const styles = {
@@ -26,7 +27,6 @@ const About = () => {
       sx={{ mt: { md: '3rem' }, mx: { xl: '6rem' }, ml: { '2xl': '13rem' } }}
     >
       <Grid container spacing={3}>
-        {/* Place the heading on top */}
         <Grid
           item
           xs={12}
@@ -141,7 +141,7 @@ const About = () => {
                         color: '#CCD6F6',
                       }}
                     >
-                      <span className="keyName">Frontend:</span>
+                      <span className="keyName">Frontend: </span>
                       {data.skills[0].frontend}
                     </Typography>
                   </Grid>
@@ -181,7 +181,7 @@ const About = () => {
                         color: '#CCD6F6',
                       }}
                     >
-                      <span className="keyName">Backend:</span>
+                      <span className="keyName">Backend: </span>
                       {data.skills[1].backend}
                     </Typography>
                   </Grid>
@@ -221,7 +221,7 @@ const About = () => {
                         color: '#CCD6F6',
                       }}
                     >
-                      <span className="keyName">Tools And Methods:</span>
+                      <span className="keyName">Tools And Methods: </span>
                       {data.skills[2].ToolsAndMethods}
                     </Typography>
                   </Grid>
