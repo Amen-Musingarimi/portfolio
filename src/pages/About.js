@@ -1,9 +1,11 @@
-import { Container, Divider, Grid, Typography } from '@mui/material';
+import {
+  Container, Divider, Grid, Typography,
+} from '@mui/material';
 import { Box } from '@mui/system';
 import React from 'react';
 import data from '../projects/data';
 import profile from '../assets/profile.jpg';
-import './../index.css';
+import '../index.css';
 
 const About = () => {
   const styles = {
@@ -38,7 +40,8 @@ const About = () => {
           <div className="heading" style={styles.heading}>
             <Typography variant="h6" sx={{ mr: 2, color: '#ccd6f6' }}>
               <Typography variant="span" sx={{ color: '#64ffda' }}>
-                01.{' '}
+                01.
+                {' '}
               </Typography>
               About Me
             </Typography>
@@ -54,7 +57,9 @@ const About = () => {
           sx={{
             mx: 'auto',
             my: { xxs: 5 },
-            width: { xxs: '60%', xs: '40%', sm: '35%', md: '30%' },
+            width: {
+              xxs: '60%', xs: '40%', sm: '35%', md: '30%',
+            },
             display: { md: 'flex', alignItems: 'center' },
             mr: { md: 4, xl: 0, '2xl': 0 },
           }}

@@ -5,9 +5,9 @@ import {
   Typography,
   useMediaQuery,
 } from '@mui/material';
+import { useTheme } from '@emotion/react';
 import Demo from './Demo';
 import NavDrawer from './NavDrawer';
-import { useTheme } from '@emotion/react';
 
 const Nav = () => {
   const theme = useTheme();

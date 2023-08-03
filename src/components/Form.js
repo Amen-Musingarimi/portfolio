@@ -27,14 +27,13 @@ const Form = () => {
     if (!name) {
       setErrorName('Name is required');
       return;
-    } else {
-      setErrorName(' ');
     }
+    setErrorName(' ');
 
     if (!email) {
       setErrorEmail('Email is required');
       return;
-    } else if (!/\S+@\S+\.\S+/.test(email)) {
+    } if (!/\S+@\S+\.\S+/.test(email)) {
       setErrorEmail('Email is not valid');
     } else {
       setErrorEmail(' ');
@@ -42,7 +41,6 @@ const Form = () => {
 
     if (!message) {
       setErrorMessage('Message is required');
-      return;
     } else {
       setErrorMessage(' ');
     }

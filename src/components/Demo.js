@@ -1,4 +1,6 @@
-import { Button, ListItem, Typography, Link } from '@mui/material';
+import {
+  Button, ListItem, Typography, Link,
+} from '@mui/material';
 import { useLocation } from 'react-router-dom';
 
 const Demo = () => {
@@ -53,7 +55,8 @@ const Demo = () => {
             variant="span"
           >
             <Typography variant="span" sx={{ fontSize: 12 }}>
-              {item.num}.
+              {item.num}
+              .
             </Typography>
             <Link
               sx={{
