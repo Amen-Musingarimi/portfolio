@@ -36,7 +36,8 @@ const data = {
         'A platform that allows users to discover the best hotels around the world and book their dream vacations effortlessly. Unlock exclusive deals and offers by signing up or logging in, and experience seamless navigation and responsive design for an exceptional user experience',
       project_image: hotelAppImage,
       project_tech: 'React, Redux, Ruby On Rails, PostgreSQL, CSS',
-      project_link: 'https://github.com/Amen-Musingarimi/recipe-app-rails.git',
+      project_link:
+        'https://github.com/Amen-Musingarimi/hotel-booking-app-backend.git',
     },
     {
       project_name: 'Space Travelers',
