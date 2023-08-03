@@ -8,6 +8,18 @@ import concertImage from '../assets/projects/musicalconcert.png';
 import recipeImage from '../assets/projects/recipeapp.png';
 import spaceTravelersImage from '../assets/projects/spacetravelers.png';
 
+const skills = [
+  {
+    frontend:
+      'JavaScript, React, Redux, Next.js, jQuery, HTML5, CSS, Bootstrap, Sass',
+  },
+  { backend: ' Ruby, Ruby on Rails, PostgreSQL' },
+  {
+    ToolsAndMethods:
+      'Git, GitHub, Vite, Webpack, RESTful APIs, Chrome DevTools, Figma, Jira',
+  },
+];
+
 const data = {
   skills: [
     { name: 'JavaScript(ES6+)' },
@@ -22,7 +34,7 @@ const data = {
       project_name: 'Math Magicians',
       project_live_link: '#',
       project_description:
-        'a web app that allows users to make simple math calculations and read a random math-related quotes.',
+        'A web app that allows users to make simple math calculations and read a random math-related quotes.',
       project_image: calculatorImage,
       project_tech: 'HTML, CSS, JavaScript',
       project_link: 'https://github.com/Amen-Musingarimi/Math-Magicians.git',

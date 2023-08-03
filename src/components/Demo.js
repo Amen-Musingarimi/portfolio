@@ -28,7 +28,7 @@ const Demo = () => {
       path: '#about',
     },
     {
-      name: 'Experience',
+      name: 'Portfolio',
       num: '02',
       path: '#experience',
     },

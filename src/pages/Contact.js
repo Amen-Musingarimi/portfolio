@@ -145,7 +145,7 @@ const Contact = () => {
             }}
           >
             <Link
-              to="takudzwamusinga@gmail.com"
+              to="mailto:takudzwamusinga@gmail.com"
               target="_blank"
               className="floatEmail"
               style={styles.floatEmail}
@@ -174,14 +174,15 @@ const Contact = () => {
             sx={{ fontWeight: 300, fontSize: 14, mr: 2 }}
           >
             <StarOutlineIcon sx={{ fontSize: 16, mx: 0.5 }} />
-            56
+            62
           </Typography>
           <Typography
             variant="span"
             className="card-icon"
             sx={{ fontWeight: 300, fontSize: 14 }}
           >
-            <ForkRightIcon sx={{ fontSize: 16, mx: 0.5 }} />8
+            <ForkRightIcon sx={{ fontSize: 16, mx: 0.5 }} />
+            11
           </Typography>
         </Box>
       </footer>
