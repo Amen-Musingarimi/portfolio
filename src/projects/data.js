@@ -1,6 +1,5 @@
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import { HiOutlineMail } from 'react-icons/hi';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import calculatorImage from '../assets/projects/calculator.png';
 import hotelAppImage from '../assets/projects/hotel-booking-app.png';
@@ -76,7 +75,6 @@ const data = {
       name: <LinkedInIcon />,
       link: 'https://www.linkedin.com/in/atmusingarimi/',
     },
-    { name: <HiOutlineMail />, link: 'takudzwamusinga@gmail.com' },
     { name: <TwitterIcon />, link: 'https://twitter.com/MusingarimiT' },
   ],
 };

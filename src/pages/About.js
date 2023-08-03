@@ -26,7 +26,31 @@ const About = () => {
       sx={{ mt: { md: '3rem' }, mx: { xl: '6rem' }, ml: { '2xl': '13rem' } }}
     >
       <Grid container spacing={3}>
+        {/* Place the heading on top */}
+        <Grid
+          item
+          xs={12}
+          sx={{
+            color: '#8892af',
+            mx: { xs: 4, md: 6 },
+          }}
+        >
+          <div className="heading" style={styles.heading}>
+            <Typography variant="h6" sx={{ mr: 2, color: '#ccd6f6' }}>
+              <Typography variant="span" sx={{ color: '#64ffda' }}>
+                01.{' '}
+              </Typography>
+              About Me
+            </Typography>
+            <Divider
+              style={styles.hr}
+              sx={{ width: { xxs: '30%', xs: '50%' } }}
+            />
+          </div>
+        </Grid>
         <Box
+          xs={12}
+          md={6}
           sx={{
             mx: 'auto',
             my: { xxs: 5 },
@@ -45,33 +69,28 @@ const About = () => {
         </Box>
         <Grid
           item
-          xxs={12}
+          xs={12}
           md={6}
           sx={{
             color: '#8892af',
             mx: { xs: 4, md: 6 },
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'flex-start',
+            alignItems: 'flex-start',
           }}
         >
-          <div className="heading" style={styles.heading}>
-            <Typography variant="h6" sx={{ mr: 2, color: '#ccd6f6' }}>
-              <Typography variant="span" sx={{ color: '#64ffda' }}>
-                01.{' '}
-              </Typography>
-              About Me
-            </Typography>
-            <Divider
-              style={styles.hr}
-              sx={{ width: { xxs: '30%', xs: '50%' } }}
-            />
-          </div>
           <Box className="about-content" sx={{ fontFamily: 'sans-serif' }}>
             <Typography
               variant="body1"
               sx={{ mt: 4, fontFamily: 'sans-serif' }}
             >
-              Greetings! My name is Amen, a full-stack developer who enjoys
-              creating engaging and user-friendly websites. I have completed 20+
-              projects, enhancing my skills and finding inventive solutions.
+              Greetings! I am Amen, a passionate full-stack developer who finds
+              joy in creating engaging and user-friendly websites. With over 20
+              remarkable projects under my belt, I've honed my skills and found
+              inventive solutions. Collaborating with skilled developers
+              worldwide in remote setups has taught me the value of teamwork,
+              improving both my technical and interpersonal abilities.
             </Typography>
             <Typography
               variant="body1"
@@ -202,7 +221,7 @@ const About = () => {
                         color: '#CCD6F6',
                       }}
                     >
-                      <span className="keyName">Tools and Methods:</span>
+                      <span className="keyName">Tools And Methods:</span>
                       {data.skills[2].ToolsAndMethods}
                     </Typography>
                   </Grid>
