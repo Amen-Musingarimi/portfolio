@@ -8,26 +8,17 @@ import concertImage from '../assets/projects/musicalconcert.png';
 import recipeImage from '../assets/projects/recipeapp.png';
 import spaceTravelersImage from '../assets/projects/spacetravelers.png';
 
-const skills = [
-  {
-    frontend:
-      'JavaScript, React, Redux, Next.js, jQuery, HTML5, CSS, Bootstrap, Sass',
-  },
-  { backend: ' Ruby, Ruby on Rails, PostgreSQL' },
-  {
-    ToolsAndMethods:
-      'Git, GitHub, Vite, Webpack, RESTful APIs, Chrome DevTools, Figma, Jira',
-  },
-];
-
 const data = {
   skills: [
-    { name: 'JavaScript(ES6+)' },
-    { name: 'ReactJs' },
-    { name: 'Redux' },
-    { name: 'SQL' },
-    { name: 'Ruby' },
-    { name: 'Ruby on Rails' },
+    {
+      frontend:
+        'JavaScript, React, Redux, Next.js, jQuery, HTML5, CSS, Bootstrap, Sass',
+    },
+    { backend: ' Ruby, Ruby on Rails, PostgreSQL' },
+    {
+      ToolsAndMethods:
+        'Git, GitHub, Vite, Webpack, RESTful APIs, Chrome DevTools, Figma, Jira',
+    },
   ],
   projects: [
     {

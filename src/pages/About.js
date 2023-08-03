@@ -26,6 +26,23 @@ const About = () => {
       sx={{ mt: { md: '3rem' }, mx: { xl: '6rem' }, ml: { '2xl': '13rem' } }}
     >
       <Grid container spacing={3}>
+        <Box
+          sx={{
+            mx: 'auto',
+            my: { xxs: 5 },
+            width: { xxs: '60%', xs: '40%', sm: '35%', md: '30%' },
+            display: { md: 'flex', alignItems: 'center' },
+            mr: { md: 4, xl: 0, '2xl': 0 },
+          }}
+        >
+          <img
+            className="img slideanim"
+            style={styles.img}
+            src={profile}
+            width="100%"
+            alt="profile"
+          />
+        </Box>
         <Grid
           item
           xxs={12}
@@ -52,40 +69,30 @@ const About = () => {
               variant="body1"
               sx={{ mt: 4, fontFamily: 'sans-serif' }}
             >
-              Greetings! My name is Amen, and I am a devoted full-stack
-              developer who derives pleasure from crafting engaging and
-              user-friendly websites. Throughout my journey, I have undertaken
-              20+ remarkable projects, both independently and in collaboration
-              with others. Each endeavor has served as a thrilling chance to
-              enhance my skills and devise inventive solutions.
+              Greetings! My name is Amen, a full-stack developer who enjoys
+              creating engaging and user-friendly websites. I have completed 20+
+              projects, enhancing my skills and finding inventive solutions.
             </Typography>
             <Typography
               variant="body1"
               sx={{ mt: 2, fontFamily: 'sans-serif' }}
             >
-              Throughout my journey, I've had the privilege of working with
-              skilled developers from various backgrounds in remote setups,
-              cultivating a strong sense of teamwork that knows no boundaries.
-              This valuable experience has not only refined my technical
-              proficiency but also enriched my communication and problem-solving
-              abilities in multicultural settings.
+              Throughout my journey, I worked with skilled developers from
+              diverse backgrounds in remote setups, improving teamwork,
+              communication, and problem-solving in multicultural settings.
             </Typography>
             <Typography sx={{ mt: 2, fontFamily: 'sans-serif' }}>
-              Demonstrating unwavering commitment to my craft, I have devoted
-              over 1500 hours to refining my coding skills, delving into the
-              intricacies of web development, and consistently pushing my limits
-              as a developer. Throughout my journey in the world of web
-              development, I have gained valuable hands-on experience with a
-              diverse range of technologies and tools, including:
+              I am committed to my craft, having spent over 1500 hours refining
+              my coding skills and gaining valuable hands-on experience with
+              various web development technologies and tools that include:
             </Typography>
 
-            <Box sx={{ mt: 2 }}>
-              <Grid container sx={{ mt: 2 }}>
-                {data.skills.map((skill, index) => (
+            <Box>
+              <Box sx={{ mt: 2 }}>
+                <Grid container sx={{ mt: 2 }}>
                   <Grid
                     item
-                    key={index}
-                    xxs={6}
+                    xs={12}
                     sx={{
                       py: '0.2rem',
                       display: 'flex',
@@ -115,31 +122,95 @@ const About = () => {
                         color: '#CCD6F6',
                       }}
                     >
-                      {skill.name}
+                      <span className="keyName">Frontend:</span>
+                      {data.skills[0].frontend}
                     </Typography>
                   </Grid>
-                ))}
-              </Grid>
+                </Grid>
+              </Box>
+              <Box sx={{ mt: 2 }}>
+                <Grid container sx={{ mt: 2 }}>
+                  <Grid
+                    item
+                    xs={12}
+                    sx={{
+                      py: '0.2rem',
+                      display: 'flex',
+                      alignItems: 'center',
+                    }}
+                  >
+                    <Typography
+                      variant="span"
+                      sx={{
+                        fontSize: '0.8rem',
+                        position: 'relative',
+                        bottom: '2px',
+                        mr: 1,
+                        color: '#64ffda',
+                        fontFamily: 'sans-serif',
+                      }}
+                    >
+                      ▹
+                    </Typography>
+                    <Typography
+                      className="skills"
+                      variant="body2"
+                      sx={{
+                        fontSize: '0.9rem',
+                        fontFamily: 'sans-serif',
+                        fontWeight: '300',
+                        color: '#CCD6F6',
+                      }}
+                    >
+                      <span className="keyName">Backend:</span>
+                      {data.skills[1].backend}
+                    </Typography>
+                  </Grid>
+                </Grid>
+              </Box>
+              <Box sx={{ mt: 2 }}>
+                <Grid container sx={{ mt: 2 }}>
+                  <Grid
+                    item
+                    xs={12}
+                    sx={{
+                      py: '0.2rem',
+                      display: 'flex',
+                      alignItems: 'center',
+                    }}
+                  >
+                    <Typography
+                      variant="span"
+                      sx={{
+                        fontSize: '0.8rem',
+                        position: 'relative',
+                        bottom: '2px',
+                        mr: 1,
+                        color: '#64ffda',
+                        fontFamily: 'sans-serif',
+                      }}
+                    >
+                      ▹
+                    </Typography>
+                    <Typography
+                      className="skills"
+                      variant="body2"
+                      sx={{
+                        fontSize: '0.9rem',
+                        fontFamily: 'sans-serif',
+                        fontWeight: '300',
+                        color: '#CCD6F6',
+                      }}
+                    >
+                      <span className="keyName">Tools and Methods:</span>
+                      {data.skills[2].ToolsAndMethods}
+                    </Typography>
+                  </Grid>
+                </Grid>
+              </Box>
             </Box>
           </Box>
         </Grid>
-        <Box
-          sx={{
-            mx: 'auto',
-            my: { xxs: 5 },
-            width: { xxs: '60%', xs: '40%', sm: '35%', md: '30%' },
-            display: { md: 'flex', alignItems: 'center' },
-            mr: { md: 4, xl: 0, '2xl': 0 },
-          }}
-        >
-          <img
-            className="img slideanim"
-            style={styles.img}
-            src={profile}
-            width="100%"
-            alt="profile"
-          />
-        </Box>
       </Grid>
     </Container>
   );
