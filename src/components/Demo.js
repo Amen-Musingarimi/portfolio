@@ -73,7 +73,7 @@ const Demo = () => {
         </ListItem>
       ))}
       <a
-        href="https://drive.google.com/file/d/1SRWwUBVm-86IWnzWVbvm-pDqxxwSi7CM/view?usp=sharing"
+        href="https://drive.google.com/file/d/1y0wWqeahggUqsDVYLVrbRovct2jKtr2C/view?usp=sharing"
         rel="noreferrer"
         target="_blank"
         id="downloadBtn"
