@@ -33,7 +33,10 @@ const Experience = () => (
       <Typography
         variant="h4"
         sx={{
-          fontFamily: 'sans-serif', fontWeight: 800, my: 2, px: 5,
+          fontFamily: 'sans-serif',
+          fontWeight: 800,
+          my: 2,
+          px: 5,
         }}
       />
     </Box>
@@ -49,7 +52,7 @@ const Experience = () => (
       }}
     >
       <div>
-        {data.projects.map((item, index) => (
+        {data.projects.map((item) => (
           <Grid
             container
             sx={{
@@ -57,7 +60,7 @@ const Experience = () => (
               alignItems: { md: 'center' },
               mb: { xxs: '3rem', md: '7rem', mmd: '4rem' },
             }}
-            key={index}
+            key={item.project_name}
           >
             <Grid
               item
@@ -88,10 +91,16 @@ const Experience = () => (
                 m: { md: 'auto' },
                 mr: { md: 0 },
                 right: {
-                  md: 4, lg: 87, xl: 132, '2xl': 180,
+                  md: 4,
+                  lg: 87,
+                  xl: 132,
+                  '2xl': 180,
                 },
                 width: {
-                  md: '53%', lg: '45%', xl: '43%', '2xl': '38%',
+                  md: '53%',
+                  lg: '45%',
+                  xl: '43%',
+                  '2xl': '38%',
                 },
                 pr: { md: '2rem' },
               }}

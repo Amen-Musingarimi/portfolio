@@ -43,9 +43,9 @@ const Demo = () => {
 
   return (
     <>
-      {menuItems.map((item, index) => (
+      {menuItems.map((item) => (
         <ListItem
-          key={index}
+          key={item.num} // Use the unique identifier as the key
           style={styles.linkItem}
           sx={{ textAlign: { xxs: 'center' } }}
         >

@@ -58,7 +58,10 @@ const About = () => {
             mx: 'auto',
             my: { xxs: 5 },
             width: {
-              xxs: '60%', xs: '40%', sm: '35%', md: '30%',
+              xxs: '60%',
+              xs: '40%',
+              sm: '35%',
+              md: '30%',
             },
             display: { md: 'flex', alignItems: 'center' },
             mr: { md: 4, xl: 0, '2xl': 0 },
@@ -92,8 +95,8 @@ const About = () => {
             >
               Greetings! I am Amen, a passionate full-stack developer who finds
               joy in creating engaging and user-friendly websites. With over 20
-              remarkable projects under my belt, I've honed my skills and found
-              inventive solutions. Collaborating with skilled developers
+              remarkable projects under my belt, I&apos;ve honed my skills and
+              found inventive solutions. Collaborating with skilled developers
               worldwide in remote setups has taught me the value of teamwork,
               improving both my technical and interpersonal abilities.
             </Typography>

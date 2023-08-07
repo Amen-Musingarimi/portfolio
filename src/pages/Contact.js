@@ -35,7 +35,7 @@ const Contact = () => {
         sx={{ color: '#64ffda', textAlign: 'center' }}
       >
         <Typography variant="span">04.</Typography>
-        What's Next?
+        What&apos;s Next?
       </Typography>
       <Typography
         variant="h4"
@@ -71,13 +71,13 @@ const Contact = () => {
               ml: { '2xl': 7 },
             }}
           >
-            Hello! I'm actively seeking new opportunities as a full-stack
-            developer. I'm open to remote or onsite positions, and I'm flexible
-            with both full-time and part-time roles. If you have any exciting
-            job opportunities or projects that you believe would be a good fit,
-            please don't hesitate to reach out to me. I'm eager to connect with
-            potential employers and collaborators and look forward to exploring
-            exciting new prospects together.
+            Hello! I&apos;m actively seeking new opportunities as a full-stack
+            developer. I&apos;m open to remote or onsite positions, and I&apos;m
+            flexible with both full-time and part-time roles. If you have any
+            exciting job opportunities or projects that you believe would be a
+            good fit, please don&apos;t hesitate to reach out to me. I&apos;m
+            eager to connect with potential employers and collaborators and look
+            forward to exploring exciting new prospects together.
           </Typography>
 
           <Link to="https://www.linkedin.com/in/atmusingarimi/" target="_blank">
@@ -121,13 +121,13 @@ const Contact = () => {
           }}
           className="social-float"
         >
-          {data.socials.map((icon, index) => (
-            <ListItem key={index} sx={{ px: 1.2 }}>
+          {data.socials.map((icon) => (
+            <ListItem key={icon.name} sx={{ px: 1.2 }}>
               <Link
                 to={icon.link}
                 style={styles.social}
                 className="social-icon"
-                key={index}
+                key={icon.name}
                 target="_blank"
               >
                 {icon.name}
