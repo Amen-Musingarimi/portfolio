@@ -13,13 +13,20 @@ const Home = () => (
         sx={{
           color: '#8892af',
           m: {
-            xxs: 1, xs: 4, md: 6, lg: 8, xl: 0,
+            xxs: 1,
+            xs: 4,
+            md: 6,
+            lg: 8,
+            xl: 0,
           },
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'center',
           height: {
-            xxs: '85vh', xs: '65vh', md: '100vh', xxl: '80vh',
+            xxs: '85vh',
+            xs: '65vh',
+            md: '100vh',
+            xxl: '80vh',
           },
         }}
       >
@@ -87,7 +94,7 @@ const Home = () => (
           }}
           className="btn"
         >
-          Get in touch
+          Let&apos;s Connect
         </Link>
       </Grid>
     </Grid>
