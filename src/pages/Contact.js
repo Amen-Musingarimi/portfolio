@@ -64,7 +64,7 @@ const Contact = () => {
             sx={{
               fontFamily: 'sans-serif',
               fontWeight: 300,
-              textAlign: 'center',
+              textAlign: 'left',
               color: '#8892af',
               m: 'auto',
               mr: { mmd: 3 },

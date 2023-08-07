@@ -6,6 +6,7 @@ import {
   Container,
   Grid,
   Typography,
+  Button,
 } from '@mui/material';
 import { Box } from '@mui/system';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -111,7 +112,7 @@ const Experience = () => (
                 }}
               >
                 <Typography variant="body2" sx={{ mb: 1, color: '#64ffda' }}>
-                  Featured Project
+                  Project Highlights
                 </Typography>
                 <Typography gutterBottom variant="h5" component="h2">
                   {item.project_name}
@@ -154,14 +155,20 @@ const Experience = () => (
                   target="_blank"
                   className="card-icon"
                 >
-                  <GitHubIcon />
+                  <Button sx={{ px: 3 }} className="exp-btn" size="small">
+                    See Code
+                    <GitHubIcon className="exp-icon" />
+                  </Button>
                 </Link>
                 <Link
                   to={item.project_live_link}
                   target="_blank"
                   className="card-icon"
                 >
-                  <OpenInNewIcon />
+                  <Button sx={{ px: 3 }} className="exp-btn" size="small">
+                    Live Preview
+                    <OpenInNewIcon className="exp-icon" />
+                  </Button>
                 </Link>
               </CardActions>
             </Grid>

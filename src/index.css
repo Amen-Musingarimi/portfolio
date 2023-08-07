@@ -25,7 +25,12 @@ header {
   background-color: #0a1930 !important;
 }
 
-body > div.MuiDrawer-root.MuiDrawer-modal.MuiModal-root.css-1p0uwae-MuiModal-root-MuiDrawer-root > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.css-198i5h1-MuiPaper-root-MuiDrawer-paper > ul > li > .active {
+body
+  > div.MuiDrawer-root.MuiDrawer-modal.MuiModal-root.css-1p0uwae-MuiModal-root-MuiDrawer-root
+  > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.css-198i5h1-MuiPaper-root-MuiDrawer-paper
+  > ul
+  > li
+  > .active {
   color: #64ffda;
 }
 
@@ -33,10 +38,31 @@ header span {
   color: #64ffda;
 }
 
-.btn {
+.btn,
+.exp-btn {
   color: #64ffda !important;
   border: 1px solid #64ffda !important;
+}
+
+.btn {
   font-size: 0.8rem !important;
+}
+
+.exp-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 0.6rem !important;
+  padding: 5px 10px !important;
+}
+
+.exp-btn:hover {
+  background-color: #081425 !important;
+}
+
+.exp-icon {
+  font-size: 14px !important;
+  margin-left: 4px;
 }
 
 /* About */
@@ -103,8 +129,7 @@ input:-webkit-autofill:focus {
 }
 
 .tracking-in-expand {
-  -webkit-animation:
-    tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1)
+  -webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1)
     1s both;
   animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) 1s both;
 }
