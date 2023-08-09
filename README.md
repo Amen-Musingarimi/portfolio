@@ -178,6 +178,6 @@ I would like to thank [Brittany Chiang](https://brittanychiang.com/), for the or
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](LICENSE.md) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
