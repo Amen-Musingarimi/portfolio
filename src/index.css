@@ -25,12 +25,7 @@ header {
   background-color: #0a1930 !important;
 }
 
-body
-  > div.MuiDrawer-root.MuiDrawer-modal.MuiModal-root.css-1p0uwae-MuiModal-root-MuiDrawer-root
-  > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.css-198i5h1-MuiPaper-root-MuiDrawer-paper
-  > ul
-  > li
-  > .active {
+body > div.MuiDrawer-root.MuiDrawer-modal.MuiModal-root.css-1p0uwae-MuiModal-root-MuiDrawer-root > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.css-198i5h1-MuiPaper-root-MuiDrawer-paper > ul > li > .active {
   color: #64ffda;
 }
 
@@ -129,7 +124,8 @@ input:-webkit-autofill:focus {
 }
 
 .tracking-in-expand {
-  -webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1)
+  -webkit-animation:
+    tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1)
     1s both;
   animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) 1s both;
 }

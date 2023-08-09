@@ -22,7 +22,7 @@ const data = {
   projects: [
     {
       project_name: 'Math Magicians',
-      project_live_link: '#',
+      project_live_link: 'https://math-magicians-pi.vercel.app/calculator',
       project_description:
         'A web app that allows users to make simple math calculations and read a random math-related quotes.',
       project_image: calculatorImage,
@@ -51,7 +51,7 @@ const data = {
     },
     {
       project_name: 'Recipe App',
-      project_live_link: '#',
+      project_live_link: 'https://recipe-hub-15ks.onrender.com',
       project_description:
         'A Ruby on Rails application for managing recipes, ingredients, and inventory. Create, save, and share recipes, generate shopping lists based on inventory, and make recipes public for easy access',
       project_image: recipeImage,
