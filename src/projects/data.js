@@ -5,7 +5,7 @@ import calculatorImage from '../assets/projects/calculator.png';
 import hotelAppImage from '../assets/projects/hotel-booking-app.png';
 import concertImage from '../assets/projects/musicalconcert.png';
 import recipeImage from '../assets/projects/recipeapp.png';
-import spaceTravelersImage from '../assets/projects/spacetravelers.png';
+import yardCare from '../assets/projects/yard-care.png';
 
 const data = {
   skills: [
@@ -20,6 +20,15 @@ const data = {
     },
   ],
   projects: [
+    {
+      project_name: 'Yard Care',
+      project_live_link: 'https://yard-care.netlify.app/',
+      project_description:
+        'Yard Care is a cutting-edge platform that brings the convenience of real-time yard service viewing and booking right to your fingertips. Designed to make yard care hassle-free and efficient, this app offers a seamless experience for users to explore a variety of yard services and schedule their preferred services instantly.',
+      project_image: yardCare,
+      project_tech: 'HTML5, CSS, React, Redux, Jest-test',
+      project_link: 'https://github.com/Amen-Musingarimi/yard-care.git',
+    },
     {
       project_name: 'Math Magicians',
       project_live_link: 'https://math-magicians-pi.vercel.app/calculator',
@@ -38,16 +47,6 @@ const data = {
       project_tech: 'React, Redux, Ruby On Rails, PostgreSQL, CSS',
       project_link:
         'https://github.com/Amen-Musingarimi/hotel-booking-app-backend.git',
-    },
-    {
-      project_name: 'Space Travelers',
-      project_live_link: 'https://space-travellers-hub-325d.onrender.com/',
-      project_description:
-        'This web app focuses on a company that offers both commercial and scientific space travel services. Through this web application, users will have the opportunity to book rockets and participate in various space missions of their choice.',
-      project_image: spaceTravelersImage,
-      project_tech: 'HTML5, CSS, React, Redux, Jest-test',
-      project_link:
-        'https://github.com/Amen-Musingarimi/space-travelers-hub.git',
     },
     {
       project_name: 'Recipe App',
