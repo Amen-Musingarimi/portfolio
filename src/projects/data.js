@@ -26,7 +26,7 @@ const data = {
       project_description:
         'Yard Care is a cutting-edge platform that brings the convenience of real-time yard service viewing and booking right to your fingertips. Designed to make yard care hassle-free and efficient, this app offers a seamless experience for users to explore a variety of yard services and schedule their preferred services instantly.',
       project_image: yardCare,
-      project_tech: 'HTML5, CSS, React, Redux, Jest-test',
+      project_tech: 'CSS, React, Jest-test',
       project_link: 'https://github.com/Amen-Musingarimi/yard-care.git',
     },
     {
