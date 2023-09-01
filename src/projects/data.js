@@ -6,12 +6,13 @@ import hotelAppImage from '../assets/projects/hotel-booking-app.png';
 import concertImage from '../assets/projects/musicalconcert.png';
 import recipeImage from '../assets/projects/recipeapp.png';
 import yardCare from '../assets/projects/yard-care.png';
+import dura from '../assets/projects/dura-app.png';
 
 const data = {
   skills: [
     {
       frontend:
-        'JavaScript, React, Redux, Next.js, jQuery, HTML5, CSS, Bootstrap, Sass',
+        'JavaScript, React, React Native, Redux, Next.js, jQuery, HTML5, CSS, Bootstrap, Sass',
     },
     { backend: ' Ruby, Ruby on Rails, PostgreSQL' },
     {
@@ -28,6 +29,26 @@ const data = {
       project_image: yardCare,
       project_tech: 'CSS, React, Jest-test',
       project_link: 'https://github.com/Amen-Musingarimi/yard-care.git',
+    },
+    {
+      project_name: 'Dura | The Zim Flavors Hub',
+      project_live_link: 'https://dura-zim.netlify.app/',
+      project_description:
+        'Dura is an app that empowers users to explore and purchase authentic Zimbabwean traditional foods, creating a bridge to cultural heritage. It offers a seamless and user-friendly experience, connecting food enthusiasts with the flavors of Zimbabwe. (Backend Under Construction)',
+      project_image: dura,
+      project_tech: 'React, Redux, CSS, Ruby on Rails, PostgreSQL',
+      project_link: 'https://github.com/Amen-Musingarimi/dura-frontend.git',
+    },
+    {
+      project_name: 'Musical Concert',
+      project_live_link:
+        'https://amen-musingarimi.github.io/musical-concert-capstone/',
+      project_description:
+        'Musical Concert is a website where users can see details about a popular music concert hosted in Victoria Falls, Zimbabwe',
+      project_image: concertImage,
+      project_tech: 'Javascript, HTML, CSS',
+      project_link:
+        'https://github.com/Amen-Musingarimi/musical-concert-capstone.git',
     },
     {
       project_name: 'Math Magicians',
@@ -56,17 +77,6 @@ const data = {
       project_image: recipeImage,
       project_tech: 'Ruby on Rails, Rspec, CSS',
       project_link: 'https://github.com/Amen-Musingarimi/recipe-app-rails.git',
-    },
-    {
-      project_name: 'Musical Concert',
-      project_live_link:
-        'https://amen-musingarimi.github.io/musical-concert-capstone/',
-      project_description:
-        'Musical Concert is a website where users can see details about a popular music concert hosted in Victoria Falls, Zimbabwe',
-      project_image: concertImage,
-      project_tech: 'Javascript, HTML, CSS',
-      project_link:
-        'https://github.com/Amen-Musingarimi/musical-concert-capstone.git',
     },
   ],
   socials: [
