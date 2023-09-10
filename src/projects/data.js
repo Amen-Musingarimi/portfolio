@@ -7,6 +7,7 @@ import concertImage from '../assets/projects/musicalconcert.png';
 import recipeImage from '../assets/projects/recipeapp.png';
 import yardCare from '../assets/projects/yard-care.png';
 import dura from '../assets/projects/dura-app.png';
+import countryPainters from '../assets/projects/country-painters.png';
 
 const data = {
   skills: [
@@ -29,6 +30,15 @@ const data = {
       project_image: yardCare,
       project_tech: 'CSS, React, Jest-test',
       project_link: 'https://github.com/Amen-Musingarimi/yard-care.git',
+    },
+    {
+      project_name: 'Country Painters & Glazers',
+      project_live_link: 'https://country-painters.netlify.app/',
+      project_description:
+        'Country Painters & Glazers presents a modern online presence designed to streamline your experience in the world of home improvement. Our website offers a user-friendly platform for discovering and scheduling top-quality painting, glazing, and tiling services. Explore our services effortlessly, and transform your living spaces with ease.',
+      project_image: countryPainters,
+      project_tech: 'CSS, React, Redux, Jest-test',
+      project_link: 'https://github.com/Amen-Musingarimi/country-painters.git',
     },
     {
       project_name: 'Dura | The Zim Flavors Hub',
