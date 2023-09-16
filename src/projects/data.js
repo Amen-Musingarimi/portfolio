@@ -32,15 +32,6 @@ const data = {
       project_link: 'https://github.com/Amen-Musingarimi/yard-care.git',
     },
     {
-      project_name: 'Country Painters & Glazers',
-      project_live_link: 'https://country-painters.netlify.app/',
-      project_description:
-        'Country Painters & Glazers presents a modern online presence designed to streamline your experience in the world of home improvement. Our website offers a user-friendly platform for discovering and scheduling top-quality painting, glazing, and tiling services. Explore our services effortlessly, and transform your living spaces with ease.',
-      project_image: countryPainters,
-      project_tech: 'CSS, React, Redux, Jest-test',
-      project_link: 'https://github.com/Amen-Musingarimi/country-painters.git',
-    },
-    {
       project_name: 'Dura | The Zim Flavors Hub',
       project_live_link: 'https://dura-zim.netlify.app/',
       project_description:
@@ -48,6 +39,15 @@ const data = {
       project_image: dura,
       project_tech: 'React, Redux, CSS, Ruby on Rails, PostgreSQL',
       project_link: 'https://github.com/Amen-Musingarimi/dura-frontend.git',
+    },
+    {
+      project_name: 'Country Painters & Glazers',
+      project_live_link: 'https://country-painters.netlify.app/',
+      project_description:
+        'Country Painters & Glazers presents a modern online presence designed to streamline your experience in the world of home improvement. Our website offers a user-friendly platform for discovering and scheduling top-quality painting, glazing, and tiling services. Explore our services effortlessly, and transform your living spaces with ease.',
+      project_image: countryPainters,
+      project_tech: 'CSS, React, Redux, Jest-test',
+      project_link: 'https://github.com/Amen-Musingarimi/country-painters.git',
     },
     {
       project_name: 'Musical Concert',
