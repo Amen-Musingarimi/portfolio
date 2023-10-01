@@ -4,9 +4,8 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import calculatorImage from '../assets/projects/calculator.png';
 import hotelAppImage from '../assets/projects/hotel-booking-app.png';
 import concertImage from '../assets/projects/musicalconcert.png';
-import recipeImage from '../assets/projects/recipeapp.png';
 import yardCare from '../assets/projects/yard-care.png';
-import dura from '../assets/projects/dura-app.png';
+import dura from '../assets/projects/dura.png';
 import countryPainters from '../assets/projects/country-painters.png';
 
 const data = {
@@ -35,9 +34,9 @@ const data = {
       project_name: 'Dura | The Zim Flavors Hub',
       project_live_link: 'https://dura-zim.netlify.app/',
       project_description:
-        'Dura is an app that empowers users to explore and purchase authentic Zimbabwean traditional foods, creating a bridge to cultural heritage. It offers a seamless and user-friendly experience, connecting food enthusiasts with the flavors of Zimbabwe. (Backend Under Construction)',
+        'Dura is an app that empowers users to explore and purchase authentic Zimbabwean traditional foods, creating a bridge to cultural heritage. It offers a seamless and user-friendly experience, connecting food enthusiasts with the flavors of Zimbabwe.',
       project_image: dura,
-      project_tech: 'React, Redux, CSS, Ruby on Rails, PostgreSQL',
+      project_tech: 'JavaScript, React, Redux, CSS, Ruby on Rails, PostgreSQL',
       project_link: 'https://github.com/Amen-Musingarimi/dura-frontend.git',
     },
     {
@@ -78,15 +77,6 @@ const data = {
       project_tech: 'React, Redux, Ruby On Rails, PostgreSQL, CSS',
       project_link:
         'https://github.com/Amen-Musingarimi/hotel-booking-app-backend.git',
-    },
-    {
-      project_name: 'Recipe App',
-      project_live_link: 'https://recipe-hub-15ks.onrender.com',
-      project_description:
-        'A Ruby on Rails application for managing recipes, ingredients, and inventory. Create, save, and share recipes, generate shopping lists based on inventory, and make recipes public for easy access',
-      project_image: recipeImage,
-      project_tech: 'Ruby on Rails, Rspec, CSS',
-      project_link: 'https://github.com/Amen-Musingarimi/recipe-app-rails.git',
     },
   ],
   socials: [
