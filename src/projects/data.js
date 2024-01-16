@@ -7,6 +7,7 @@ import concertImage from '../assets/projects/musicalconcert.png';
 import yardCare from '../assets/projects/yard-care.png';
 import dura from '../assets/projects/dura.png';
 import countryPainters from '../assets/projects/country-painters.png';
+import eliteAttire from '../assets/projects/elite-attire.png';
 
 const data = {
   skills: [
@@ -21,6 +22,15 @@ const data = {
     },
   ],
   projects: [
+    {
+      project_name: 'Elite Attire',
+      project_live_link: 'https://elite-attire.onrender.com/',
+      project_description:
+        "Elite Attire is your cutting-edge gateway to premier men's footwear. Crafted with Node.js, Express.js, MongoDB, and styled with CSS, my app revolutionizes the shoe shopping experience. Designed for utmost convenience, it brings the latest trends from elite brands like Adidas, Nike, Converse, and more directly to your fingertips.",
+      project_image: eliteAttire,
+      project_tech: 'Express JS, MongoDB, CSS',
+      project_link: 'https://github.com/Amen-Musingarimi/elite-attire',
+    },
     {
       project_name: 'Yard Care',
       project_live_link: 'https://yard-care.netlify.app/',
