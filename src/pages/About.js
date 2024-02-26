@@ -91,26 +91,25 @@ const About = () => {
           <Box className="about-content" sx={{ fontFamily: 'sans-serif' }}>
             <Typography
               variant="body2"
-              sx={{ mt: 2, fontFamily: 'sans-serif' }}
+              sx={{ mt: 2, fontFamily: 'sans-serif', lineHeight: 1.7 }}
             >
-              Greetings! I am Amen, a passionate full-stack developer who finds
-              joy in creating engaging and user-friendly websites. With over 20
-              remarkable projects under my belt, I&apos;ve honed my skills and
-              found inventive solutions. Collaborating with skilled developers
-              worldwide in remote setups has taught me the value of teamwork,
-              improving both my technical and interpersonal abilities.
+              Hello! I&apos;m Amen Musingarimi, a passionate full-stack
+              developer dedicated to creating intuitive and user-centric web
+              applications. With a rich background encompassing over 20
+              impactful projects, I&apos;ve cultivated a knack for innovative
+              problem-solving and seamless collaboration.
             </Typography>
             <Typography
               variant="body2"
-              sx={{ mt: 1, fontFamily: 'sans-serif' }}
+              sx={{ mt: 1, fontFamily: 'sans-serif', lineHeight: 1.7 }}
             >
-              Throughout my journey, I worked with skilled developers from
-              diverse backgrounds in remote setups, improving teamwork,
-              communication, and problem-solving in multicultural settings.
+              Having thrived in diverse remote environments, I&apos;ve honed not
+              only my technical skills but also my ability to communicate
+              effectively across multicultural teams.
             </Typography>
             <Typography
               variant="body2"
-              sx={{ mt: 1, fontFamily: 'sans-serif' }}
+              sx={{ mt: 1, fontFamily: 'sans-serif', lineHeight: 1.7 }}
             >
               I am committed to my craft, having spent over 1500 hours refining
               my coding skills and gaining valuable hands-on experience with
@@ -150,6 +149,7 @@ const About = () => {
                         fontFamily: 'sans-serif',
                         fontWeight: '300',
                         color: '#CCD6F6',
+                        lineHeight: 1.7,
                       }}
                     >
                       <span className="keyName">Frontend: </span>
@@ -190,6 +190,7 @@ const About = () => {
                         fontFamily: 'sans-serif',
                         fontWeight: '300',
                         color: '#CCD6F6',
+                        lineHeight: 1.7,
                       }}
                     >
                       <span className="keyName">Backend: </span>
@@ -230,6 +231,7 @@ const About = () => {
                         fontFamily: 'sans-serif',
                         fontWeight: '300',
                         color: '#CCD6F6',
+                        lineHeight: 1.7,
                       }}
                     >
                       <span className="keyName">Tools And Methods: </span>
