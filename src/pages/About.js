@@ -90,8 +90,8 @@ const About = () => {
         >
           <Box className="about-content" sx={{ fontFamily: 'sans-serif' }}>
             <Typography
-              variant="body1"
-              sx={{ mt: 4, fontFamily: 'sans-serif' }}
+              variant="body2"
+              sx={{ mt: 2, fontFamily: 'sans-serif' }}
             >
               Greetings! I am Amen, a passionate full-stack developer who finds
               joy in creating engaging and user-friendly websites. With over 20
@@ -101,22 +101,25 @@ const About = () => {
               improving both my technical and interpersonal abilities.
             </Typography>
             <Typography
-              variant="body1"
-              sx={{ mt: 2, fontFamily: 'sans-serif' }}
+              variant="body2"
+              sx={{ mt: 1, fontFamily: 'sans-serif' }}
             >
               Throughout my journey, I worked with skilled developers from
               diverse backgrounds in remote setups, improving teamwork,
               communication, and problem-solving in multicultural settings.
             </Typography>
-            <Typography sx={{ mt: 2, fontFamily: 'sans-serif' }}>
+            <Typography
+              variant="body2"
+              sx={{ mt: 1, fontFamily: 'sans-serif' }}
+            >
               I am committed to my craft, having spent over 1500 hours refining
               my coding skills and gaining valuable hands-on experience with
               various web development technologies and tools that include:
             </Typography>
 
             <Box>
-              <Box sx={{ mt: 2 }}>
-                <Grid container sx={{ mt: 2 }}>
+              <Box sx={{ mt: 1 }}>
+                <Grid container sx={{ mt: 1 }}>
                   <Grid
                     item
                     xs={12}
@@ -155,8 +158,8 @@ const About = () => {
                   </Grid>
                 </Grid>
               </Box>
-              <Box sx={{ mt: 2 }}>
-                <Grid container sx={{ mt: 2 }}>
+              <Box sx={{ mt: 1 }}>
+                <Grid container sx={{ mt: 1 }}>
                   <Grid
                     item
                     xs={12}
@@ -195,8 +198,8 @@ const About = () => {
                   </Grid>
                 </Grid>
               </Box>
-              <Box sx={{ mt: 2 }}>
-                <Grid container sx={{ mt: 2 }}>
+              <Box sx={{ mt: 1 }}>
+                <Grid container sx={{ mt: 1 }}>
                   <Grid
                     item
                     xs={12}
