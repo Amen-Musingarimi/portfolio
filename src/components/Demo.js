@@ -73,14 +73,14 @@ const Demo = () => {
         </ListItem>
       ))}
       <a
-        href="https://drive.google.com/file/d/1buWjI_nUaZeIkF-XSvWRR-SJdwpjOReP/view?usp=sharing"
+        href="https://github.com/Amen-Musingarimi"
         rel="noreferrer"
         target="_blank"
         id="downloadBtn"
         type="button"
       >
         <Button sx={{ px: 5 }} className="btn" size="large">
-          Resume
+          GitHub
         </Button>
       </a>
     </>

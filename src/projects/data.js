@@ -13,12 +13,15 @@ const data = {
   skills: [
     {
       frontend:
-        'JavaScript, React, React Native, Redux, Next.js, jQuery, HTML5, CSS, Bootstrap, Sass',
+        'JavaScript, TypeScript, React, Next JS, Redux, HTML5, CSS, Tailwind CSS, Bootstrap',
     },
-    { backend: ' Ruby, Ruby on Rails, PostgreSQL' },
+    {
+      backend:
+        'Node JS, Express JS, Ruby, Ruby on Rails, SQL, Postgresql, MySQL, MongoDB',
+    },
     {
       ToolsAndMethods:
-        'Git, GitHub, Vite, Webpack, RESTful APIs, Chrome DevTools, Figma, Jira',
+        'Git, GitHub, RESTful APIs, GraphQL, WebSockets, SEO, Vite, Webpack, Figma, JWT, Rspec, Jest, Stripe',
     },
   ],
   projects: [
