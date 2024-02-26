@@ -1,6 +1,4 @@
-import {
-  Button, ListItem, Typography, Link,
-} from '@mui/material';
+import { ListItem, Typography, Link } from '@mui/material';
 import { useLocation } from 'react-router-dom';
 
 const Demo = () => {
@@ -72,17 +70,6 @@ const Demo = () => {
           </Typography>
         </ListItem>
       ))}
-      <a
-        href="https://drive.google.com/file/d/1buWjI_nUaZeIkF-XSvWRR-SJdwpjOReP/view?usp=sharing"
-        rel="noreferrer"
-        target="_blank"
-        id="downloadBtn"
-        type="button"
-      >
-        <Button sx={{ px: 5 }} className="btn" size="large">
-          Resume
-        </Button>
-      </a>
     </>
   );
 };
