@@ -61,11 +61,13 @@ const Contact = () => {
           }}
         >
           <Typography
+            variant="body2"
             sx={{
               fontFamily: 'sans-serif',
               fontWeight: 300,
               textAlign: 'left',
               color: '#8892af',
+              lineHeight: 2,
               m: 'auto',
               mr: { mmd: 3 },
               ml: { '2xl': 7 },
